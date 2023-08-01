@@ -1,0 +1,57 @@
+.container {
+  margin: 1rem;
+  margin-bottom: 4rem;
+}
+
+.poster_path .imgList {
+  height: 300px;
+}
+
+.category {
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.imgList {
+  display: flex;
+  list-style: none;
+  height: 200px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 0.75rem;
+  padding: 1.75rem;
+}
+
+.imgList img {
+  height: 100%;
+  width: fit-content;
+  transition: transform 0.05s;
+  position: relative;
+}
+
+/* style image has the active state */
+.imgList img:hover,
+.active {
+  transform: scale(1.1);
+}
+
+.active {
+  transform: scale(1.2) !important;
+  box-shadow: 0px 0px 3px 3px lightblue;
+  z-index: 2;
+}
+
+/* style scrollbar */
+.imgList::-webkit-scrollbar {
+  height: 0.4rem;
+}
+
+.imgList::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 4px solid transparent;
+  background-color: #cccccc1a;
+}
+
+.imgList::-webkit-scrollbar-track {
+  background-color: #272727;
+}

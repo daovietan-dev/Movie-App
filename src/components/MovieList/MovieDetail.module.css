@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  margin: 2rem 10vw;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  color: white;
+  gap: 0.75rem;
+  scroll-margin-top: 30vh;
+  scroll-behavior: smooth;
+}
+
+.information h1 {
+  margin: 2rem 0;
+}
+
+.date {
+  margin-top: 1.25rem;
+}
+
+.vote {
+  margin-bottom: 1.25rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  /* quan trọng */
+  transition: background-color 0.5s;
+  position: fixed;
+  top: 0px;
+  z-index: 100;
+  padding: 1rem;
+  padding-right: 1.5rem;
+}
+
+.blackBackground {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.navbar h2 {
+  color: red;
+}
+
+.navbar h2:hover {
+  cursor: pointer;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
